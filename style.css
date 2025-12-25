@@ -1,0 +1,59 @@
+#the-whole-page{
+  display:grid;
+}
+marquee{
+  align:center;
+  format:time new roman;
+  
+}
+#flag-div{
+  background-color:grey;
+  text-align:center;
+  border:2px solid;
+  height:10%;
+}
+
+.introduction{
+  margin-right:15%;
+  margin-left:15%;
+  text-align:center;
+  background-color:lightblue;
+  background-image: url("C:\Users\sharing house\Downloads\mistletoe-decoration.jpg")
+}
+.foods-class{
+  background-color:green;
+}
+.foods-class img{
+margin:center;
+}
+.animals-class{
+  background-color:yellow;
+}
+.culturalheritage-class{
+  background-color:red;
+}
+.info-class{
+  background-color:grey;
+}
+#list-of-tours-div{
+  display:grid;
+  grid-template-columns:70% 30%;
+}
+/* begin Head management */
+h2{
+ text-decoration-line:underline;
+  text-indent:25px;
+}
+/* end of head management */
+#list-of-tours-div img{
+ border:5px solid; 
+ margin-top:5px;
+  width:30%;
+}
+.centeralimage{
+ display:block;
+  margin:auto;
+}
+.animals-class h2{
+  text-align:center;
+}
